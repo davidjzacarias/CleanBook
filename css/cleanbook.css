@@ -1,0 +1,96 @@
+.index{
+    background: url(../Imagenes/background2.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main{
+    opacity: 0.95;
+    box-shadow: 0px 0px 3px;
+}
+
+.cb-centering {
+    max-width: 300px;
+    margin: 5% auto;
+    border: 1px solid gray;
+}
+
+.cb-input-label {
+    font-size: 0.8rem;
+}
+
+.cb-num-tel{
+    max-width: 300px;
+}
+
+.cb-password{
+    max-width: 300px;
+}
+
+img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.forgot{
+    margin-top: 10px;
+}
+
+.form{
+    margin-top: 15px;
+}
+
+.form-group{
+    width: 300px;
+    margin-left: 70px;
+}
+
+.button-group{
+    margin-top: 15px;
+}
+
+.reg{
+    margin-left: 25px;    
+}
+
+.first{
+    margin-top: 20px;
+}
+
+.text{
+    margin-left: 60px;
+}
+
+.row-striped:nth-of-type(odd){
+    background-color: #efefef;
+    border-left: 4px #000000 solid;
+  }
+  
+  .row-striped:nth-of-type(even){
+    background-color: #ffffff;
+    border-left: 4px #efefef solid;
+  }
+  
+  .row-striped {
+      padding: 15px 0;
+  }
+
+  hr {
+    border: 0.5px solid #000000; 
+    width: 465px;
+  }
+
+  .item{
+      color: #ffffff;
+  }
+
+  .bar{
+      border: 0px;
+  }
+
+  .months{
+      margin-right: 100px;
+  }
+
+  .menu{
+      margin-right: 100px;
+  }
