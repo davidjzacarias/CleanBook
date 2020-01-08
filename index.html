@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/cleanbook.css">
 </head>
+<script>
+    function redireccionar(){
+        var red = document.getElementById('Empleador');
+        if(red.className === "btn btn-outline-primary focus active"){
+            alert('Cliente');
+            window.location.href('DashboardE.html');
+            location.href = 'DashboardE.html';
+       }
+        else{
+            alert('Trabajador');
+            window.location.href('DashboardT.html');
+            location.href = 'DashboardT.html';
+        }
+    }
+</script>
 <body class="index">
     <div class="modal-dialog text-center">
         <div class="col-sm ">
@@ -22,12 +37,12 @@
                 </div>
                 <form class="col-sm form"> 
                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                        <label class="btn btn-outline-primary ">
-                            <input type="radio" name="options" id="Empleador" autocomplete="off" checked> 
+                        <label class="btn btn-outline-primary focus active" id="Empleador" >
+                            <input type="radio" name="options" autocomplete="off"> 
                             <i class="fa fa-credit-card"></i><br>Empleador
                         </label>
-                        <label class="btn btn-outline-primary">
-                            <input type="radio" name="options" id="Trabajador" autocomplete="off"> 
+                        <label class="btn btn-outline-primary" id="Trabajador">
+                            <input type="radio" name="options" autocomplete="off"> 
                             <i class="fa fa-suitcase"></i><br>Trabajador
                         </label>
                     </div>
@@ -42,7 +57,7 @@
                             <a class="btn btn-outline-primary" href="RegisterStep1.html" role="button">Registrarse</a>
                         </div>
                         <div class="col-sm enter">
-                            <a class="btn btn-primary" href="DashboardT.html" role="button">Entrar</a>
+                            <button type="button" onclick="redireccionar()" class="btn btn-primary">Entrar</button>
                         </div>
                     </div>
                 </form>
