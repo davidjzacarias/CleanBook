@@ -14,14 +14,10 @@
     function redireccionar(){
         var red = document.getElementById('Empleador');
         if(red.className === "btn btn-outline-primary focus active"){
-            alert('Cliente');
-            window.location.href('DashboardE.html');
-            location.href = 'DashboardE.html';
+            window.location.replace('DashboardE.html');
        }
         else{
-            alert('Trabajador');
-            window.location.href('DashboardT.html');
-            location.href = 'DashboardT.html';
+            window.location.replace('DashboardT.html');
         }
     }
 </script>
@@ -57,7 +53,7 @@
                             <a class="btn btn-outline-primary" href="RegisterStep1.html" role="button">Registrarse</a>
                         </div>
                         <div class="col-sm enter">
-                            <button type="button" onclick="redireccionar()" class="btn btn-primary">Entrar</button>
+                            <button type="button" onclick=redireccionar() class="btn btn-primary">Entrar</button>
                         </div>
                     </div>
                 </form>
