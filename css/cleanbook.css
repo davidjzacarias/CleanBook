@@ -96,6 +96,10 @@ hr {
     margin-left: 80px;
 }
 
+.title2{
+    margin-left: 30px;
+}
+
 .months{
     margin-right: 100px;
 }
@@ -103,3 +107,47 @@ hr {
 .menu{
     margin-right: 100px;
 }
+
+.link{
+    color: #37383D;
+}
+
+.cont{
+    margin-top: 10px;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
